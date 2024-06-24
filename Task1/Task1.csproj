@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="BR.jpeg" />
+    <None Remove="DRR.jpeg" />
+    <None Remove="polo.jpeg" />
+    <None Remove="resizer.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="BR.jpeg" />
+    <Resource Include="DRR.jpeg" />
+    <Resource Include="polo.jpeg" />
+    <Resource Include="resizer.jpeg" />
+  </ItemGroup>
+
+</Project>
